@@ -1,9 +1,9 @@
 {
-  "name": "random-spoiler",
+  "name": "random-spoilers",
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/faelcorreia/random-spoiler"
+    "url": "https://github.com/faelcorreia/random-spoilers"
   },
   "devDependencies": {
     "gulp": "^3.9.0",

@@ -20,6 +20,7 @@ var vendors = {
         bower_dir + '/angular/angular.js',
         bower_dir + '/angular-i18n/angular-locale_pt-br.js',
         bower_dir + '/angular-resource/angular-resource.js',
+        bower_dir + '/angular-animate/angular-animate.js',
         bower_dir + '/angular-ui-router/release/angular-ui-router.js'
     ]
 }

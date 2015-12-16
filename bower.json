@@ -1,10 +1,12 @@
 {
-    "name": "random-spoiler",
-    "version": "1.0.0",
-    "devDependencies": {
-        "angular": "~1.4.8",
-        "angular-i18n": "~1.4.8",
-        "angular-ui-router": "~0.2.13",
-        "angular-resource": "~1.4.8"
-    }
+  "name": "random-spoilers",
+  "version": "1.0.0",
+  "devDependencies": {
+    "angular": "~1.4.8",
+    "angular-i18n": "~1.4.8",
+    "angular-ui-router": "~0.2.13",
+    "angular-resource": "~1.4.8",
+    "angular-animate": "~1.4.8",
+    "github-fork-ribbon-css": "~0.1.1"
+  }
 }

@@ -1,4 +1,4 @@
-# Random spoiler
+# Random Spoilers
 
 Install node packages.
 ````

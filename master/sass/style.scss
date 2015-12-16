@@ -1,0 +1,77 @@
+@import "variables.scss";
+@import "buttons.scss";
+@import "../../bower_components/github-fork-ribbon-css/gh-fork-ribbon.css";
+
+body {
+	background-color: $background-color;
+	color: $primary-font-color;
+	font-family: "arial", Georgia, Serif;
+}
+
+a {
+	text-decoration: none;
+	color: $link-font-color;
+}
+
+.main {
+	margin-top: 20%;
+	padding: 10px;
+}
+
+.spoiler {
+	text-align: center;
+}
+
+.footer {
+	position:absolute;
+	bottom:0;
+	padding: 10px;
+	text-align: center;
+}
+
+button {
+	margin: 0 auto;
+}
+
+
+.slide.ng-enter {
+	-webkit-transition:all .5s ease-in-out;
+	-moz-transition:all .5s ease-in-out;
+	-o-transition:all .5s ease-in-out;
+	transition:all .5s ease-in-out;
+}
+
+.slide.ng-enter {
+	opacity: 0;
+	-webkit-transform:scale3d(0.5, 0.5, 0.5);
+	-moz-transform:scale3d(0.5, 0.5, 0.5);
+	transform:scale3d(0.5, 0.5, 0.5);
+}
+
+.slide.ng-enter-active {
+	opacity: 1;
+	-webkit-transform:scale3d(1, 1, 1);
+	-moz-transform:scale3d(1, 1, 1);
+	transform:scale3d(1, 1, 1);
+}
+
+.slide.ng-leave {
+	-webkit-transition:all .5s ease-in-out;
+	-moz-transition:all .5s ease-in-out;
+	-o-transition:all .5s ease-in-out;
+	transition:all .5s ease-in-out;
+}
+
+.slide.ng-leave {
+	opacity: 1;
+	-webkit-transform:scale3d(1, 1, 1);
+	-moz-transform:scale3d(1, 1, 1);
+	transform:scale3d(1, 1, 1);
+}
+
+.slide.ng-leave-active {
+	opacity: 0;
+	-webkit-transform:scale3d(0.5, 0.5, 0.5);
+	-moz-transform:scale3d(0.5, 0.5, 0.5);
+	transform:scale3d(0.5, 0.5, 0.5);
+}

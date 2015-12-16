@@ -1,7 +1,8 @@
 'use strict';
 
-angular.module('simple-angular-node-project', [
+angular.module('random-spoilers', [
     'ngResource',
+    'ngAnimate',
     'ui.router'
 ])
 
@@ -10,7 +11,7 @@ angular.module('simple-angular-node-project', [
 
         $stateProvider
 
-        .state('app', {
+            .state('app', {
             url: '/app',
             templateUrl: 'views/app.html',
             controller: 'AppCtrl',

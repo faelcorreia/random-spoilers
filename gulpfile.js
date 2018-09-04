@@ -27,11 +27,7 @@ var vendors = {
 
 var master = {
     scripts: [
-        master_dir + '/js/app.js',
-        master_dir + '/js/controllers/*.js',
-        master_dir + '/js/directives/*.js',
-        master_dir + '/js/filters/*.js',
-        master_dir + '/js/services/*.js'
+        master_dir + '/js/app.js'        
     ],
     sass: [
         master_dir + '/sass/style.scss'
